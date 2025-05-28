@@ -1,0 +1,9 @@
+Instrument,Tick_Size,Contract_Size,Max_Abs_Change,Date,Pt,Pt+1,SOMC_Policy
+ret_KOSPI (KRW),0.01," KRW 250,000.00 ",9.15%,"March 24, 2020", KRW 201.87 , KRW 220.34 ,10 Ticks * Tick Size * Contract Size
+ret_KOSPI_Exclude_COVID (KRW),0.01," KRW 250,000.00 ",9.12%,"August 5, 2024", KRW 365.17 , KRW 331.86 ,10 Ticks * Tick Size * Contract Size
+ret_ASX (AUD),1, AUD 10.00 ,9.70%,"March 16, 2020"," AUD 5,539.30 "," AUD 5,002.00 ", $0.50 per contract for certain equities
+ret_ASX_Exclude_COVID (AUD),1, AUD 10.00 ,4.54%,"April 10, 2025"," AUD 7,375.00 "," AUD 7,709.60 ", $0.50 per contract for certain equities
+ret_FTSE_250 (GBP),0.5, GBP 10.00 ,9.35%,"March 12, 2020"," GBP 17,339.23 "," GBP 15,717.42 ", SCRAF Ratio * SOM Rate
+ret_FTSE_250_Exclude_COVID (GBP),0.5, GBP 10.00 ,4.43%,"March 9, 2022"," GBP 19,217.62 "," GBP 20,069.20 ", SCRAF Ratio * SOM Rate
+ret_FTSE_100 (GBP),0.5, GBP 10.00 ,10.87%,"March 12, 2020"," GBP 5,876.52 "," GBP 5,237.48 ", SCRAF Ratio * SOM Rate
+ret_FTSE_100_Exclude_COVID (GBP),0.5, GBP 10.00 ,4.95%,"April 4, 2025"," GBP 8,474.74 "," GBP 8,054.98 ", SCRAF Ratio * SOM Rate
